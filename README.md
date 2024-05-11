@@ -8,7 +8,6 @@ Download the MNIST dataset. You can use libraries like TensorFlow or PyTorch to 
 Normalize pixel values to the range [0, 1].
 Flatten the 28x28 images into 1D arrays (784 elements).
 ## Data Splitting:
-
 Split the dataset into training, validation, and test sets.
 Model Architecture:
 ## Design an MLP architecture. 
