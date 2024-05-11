@@ -122,6 +122,7 @@ plt.plot(clf.loss_curve_)
 plt.title("Loss Curve")
 plt.show()
 ```
+
 ## Output:
 ![outout](./Output/Figure_1.png)
 ![outout](./Output/Figure_2.png)
