@@ -8,7 +8,6 @@ Download the MNIST dataset. You can use libraries like TensorFlow or PyTorch to 
 Normalize pixel values to the range [0, 1].
 Flatten the 28x28 images into 1D arrays (784 elements).
 ## Data Splitting:
-
 Split the dataset into training, validation, and test sets.
 Model Architecture:
 ## Design an MLP architecture. 
@@ -109,7 +108,7 @@ def plot_learning_curve(estimator, title, X, y, axes=None, ylim=None, cv=None,
     return plt
     title = "Learning Curves (Multiple Layer Perceptron)"
 
-# Cross validation with 5 iterations each time with 20% data 
+# Cross validation with 5 iterations each time with 20% mnist data 
 # randomly selected as a validation set.
 cv = ShuffleSplit(n_splits=5, test_size=0.2, random_state=0)
 
